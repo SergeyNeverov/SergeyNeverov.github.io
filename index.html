@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Тренажерный Зал Атлетик</title>
+  <link href="style.css" rel="stylesheet"></head>
+  <body>
+    <header class="main-header">
+      <div class="wrapper">
+        <nav class="main-navigation">
+          <a class="logo">
+            <img src="img/logo.svg" alt="Атлетик" />
+          </a>
+          <div class="navigation-wrapper">
+            <ul class="navigation-list">
+              <li class="navigation-item">
+                <a class="navigation-item__link" href="#about">О клубе</a>
+              </li>
+              <li class="navigation-item">
+                <a class="navigation-item__link" href="#feedback">
+                  Оставить заявку
+                </a>
+              </li>
+              <li class="navigation-item">
+                <a class="navigation-item__link" href="#price">Цены</a>
+              </li>
+              <li class="navigation-item">
+                <a class="navigation-item__link" href="#services">Услуги</a>
+              </li>
+              <li class="navigation-item">
+                <a class="navigation-item__link" href="#contacts">Контакты</a>
+              </li>
+            </ul>
+          </div>
+          <div class="header-contacts">
+            <a class="header-contacts-link" href="Tel:+73852601969">
+              <span>+7 3852</span>
+              <strong>601-969</strong>
+            </a>
+            <span class="header-contacts-link__address">
+              ул. 50 лет СССР, д.3
+            </span>
+          </div>
+        </nav>
+        <div class="header-wrapper">
+          <span class="caption" data-aos="fade-right"
+            >Тренажерный Зал Атлетик</span
+          >
+          <h1 class="main-title" data-aos="fade-right">
+            Абонемент в фитнес клуб всего за 600 Р<sup>*</sup>
+          </h1>
+          <ul class="features" data-aos="fade-right" data-aos-delay="500">
+            <li class="features__text">Составление программы</li>
+            <li class="features__text">Помощь тренера</li>
+            <li class="features__text">Индивидуальный подход</li>
+            <li class="features__text">Онлайн Тренинг</li>
+          </ul>
+          <a
+            class="button main-header__button"
+            href="#feedback"
+            data-aos-delay="900"
+            data-aos="fade-right"
+            >Заказать звонок</a
+          >
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="advantages">
+        <div class="wrapper advantages-wrapper">
+          <div class="advantages-header" data-aos="fade-up">
+            <h2 class="advantages-title">Тренажерный Зал Барнаул</h2>
+          </div>
+          <ul class="advantages-list">
+            <li class="advantages-item" data-aos="fade-up">
+              <img
+                src="img/coins.svg"
+                alt="Доступные цены"
+                height="100"
+                width="100"
+              />
+              <h4 class="advantages-item__title">
+                Доступные цены
+              </h4>
+              <p class="advantages-item__text">
+                Одних из самых доступных цен в городе
+              </p>
+            </li>
+            <li class="advantages-item" data-aos="fade-up">
+              <img
+                src="img/gym.svg"
+                alt="Большая площадь"
+                height="100"
+                width="100"
+              />
+              <h4 class="advantages-item__title">Большая площадь</h4>
+              <p class="advantages-item__text">
+                Тренажерный зал площадью более 100м<sup>2</sup>
+              </p>
+            </li>
+            <li class="advantages-item" data-aos="fade-up">
+              <img
+                src="img/whistle.svg"
+                alt="Профессионализм"
+                height="100"
+                width="100"
+              />
+              <h4 class="advantages-item__title">Профессионализм</h4>
+              <p class="advantages-item__text">
+                Профессиональные тренера с большим стажем работы
+              </p>
+            </li>
+            <li class="advantages-item" data-aos="fade-down">
+              <img
+                src="img/list.svg"
+                alt="Персональный тренинг"
+                height="100"
+                width="100"
+              />
+              <h4 class="advantages-item__title">
+                Персональный тренинг
+              </h4>
+              <p class="advantages-item__text">
+                Составление программы входит в базовый абонемент
+              </p>
+            </li>
+            <li class="advantages-item" data-aos="fade-down">
+              <img
+                src="img/chronometer.svg"
+                alt="График работы"
+                height="100"
+                width="100"
+              />
+              <h4 class="advantages-item__title">График работы</h4>
+              <p class="advantages-item__text">
+                Тренажерный зал открыт для Вас каждый день недели
+              </p>
+            </li>
+            <li class="advantages-item" data-aos="fade-down">
+              <img
+                src="img/rowing.svg"
+                alt="КардиоЗона"
+                height="100"
+                width="100"
+              />
+              <h4 class="advantages-item__title">КардиоЗона</h4>
+              <p class="advantages-item__text">
+                Выделенная кардиозона с современными тренажерами
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="feedback" id="feedback">
+        <div class="wrapper">
+          <div class="feedback-text" data-aos="fade-right">
+            <h2 class="feedback-text__title">
+              Есть вопросы? Ответим через 2 минуты
+            </h2>
+            <span class="feedback-text__description"
+              >Оставьте заявку и мы Вам перезвоним</span
+            >
+          </div>
+          <form
+            class="feedback-form"
+            action="#"
+            data-aos="fade-right"
+            data-aos-delay="500"
+          >
+            <input
+              class="feedback-form__input feedback-form__input_name"
+              type="text"
+              placeholder="Имя"
+            />
+            <input
+              class="feedback-form__input feedback-form__input_phone"
+              type="text"
+              placeholder="+7(___) ___ __ __"
+            />
+            <button type="submit" class="button feedback-form__button">
+              Заказать звонок
+            </button>
+          </form>
+        </div>
+      </section>
+      <section class="rewievs" id="reviews">
+        <div class="wrapper reviews-wrapper" data-aos="fade-down">
+          <div class="reviews-header">
+            <h2 class="reviews-title">Отзывы наших клиентов</h2>
+          </div>
+          <div class="reviews-list" data-aos="fade-up">
+            <a
+              class="flamp-widget"
+              href="//barnaul.flamp.ru/firm/atletik_trenazhernyjj_zal-563478234772346"
+              data-flamp-widget-type="responsive-new"
+              data-flamp-widget-id="563478234772346"
+              data-flamp-widget-width="100%"
+              data-flamp-widget-count="3"
+              >Отзывы о нас на Флампе</a
+            >
+            <script>
+              !(function(d, s) {
+                var js,
+                  fjs = d.getElementsByTagName(s)[0];
+                js = d.createElement(s);
+                js.async = 1;
+                js.src = "//widget.flamp.ru/loader.js";
+                fjs.parentNode.insertBefore(js, fjs);
+              })(document, "script");
+            </script>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="about-header" data-aos="fade-up">
+          <h2 class="about-title">О клубе</h2>
+        </div>
+        <div class="wrapper about-wrapper">
+          <div class="about-text" data-aos="fade-up">
+            <h4 class="about-text__title">Тренажерный зал Атлетик</h4>
+            <p class="about-text__descriprion">
+              <b>Тренажерный зал Атлетик</b> - это современный спортклуб в
+              Индустриальном районе. Здесь вы не просто покупаете абонемент - вы
+              приобретаете ключ к здоровому образу жизни, становитесь членом
+              нашей семьи. Забота о вашем физическом и психологическом здоровье
+              для нас на первом месте! Наш важнейший принцип - индивидуальный
+              подход. Квалифицированные тренеры и инструкторы составят план
+              тренировок, дадут рекомендации и проведут индивидуальные занятия.
+              Тренерский состав - это дипломированные специалисты и
+              профессиональные спортсмены.
+            </p>
+            <p class="about-text__descriprion">
+              <b>Тренажерный зал Атлетик</b> в Индустриальном районе - это
+              уютный фитнес клуб рядом с домом с достаточным выбором известных
+              тренажеров и популярных программ по доступным ценам. За годы
+              работы в индустрии спорта, здоровья и красоты мы накопили такое
+              количество знаний, что поделиться ими в формате обычного клуба
+              просто невозможно. Именно поэтому Тренажерный зал Атлетик - это
+              целая академия здорового фитнеса, которая включает в себя:
+              тренажерный зал, кардиозону, индивидуальный и Онлайн тренинг.
+            </p>
+          </div>
+          <div class="about-images clear" id="lightgallery" data-aos="fade-up">
+            <a href="img/gym1.jpg" class="image-preview image-preview_first"
+              ><img class="image" src="img/gym1.jpg" alt="фото клуба"
+            /></a>
+            <a href="img/gym2.jpg" class="image-preview image-preview_second"
+              ><img class="image" src="img/gym2.jpg" alt="фото клуба"
+            /></a>
+            <a href="img/gym3.jpg" class="image-preview image-preview_third"
+              ><img class="image" src="img/gym3.jpg" alt="фото клуба"
+            /></a>
+            <a href="img/gym4.jpg" class="image-preview image-preview_fourth"
+              ><img class="image" src="img/gym4.jpg" alt="фото клуба"
+            /></a>
+            <a href="img/gym5.jpg" class="image-preview image-preview_fifth"
+              ><img class="image" src="img/gym5.jpg" alt="фото клуба"
+            /></a>
+            <a href="img/gym6.jpg" class="image-preview image-preview_sixth"
+              ><img class="image" src="img/gym6.jpg" alt="фото клуба"
+            /></a>
+          </div>
+        </div>
+      </section>
+      <section class="price" id="price">
+        <div class="wrapper price-wrapper">
+          <div class="price-header" data-aos="fade-down">
+            <h2 class="price-title">Цены на абонемент</h2>
+          </div>
+          <table class="table">
+            <caption class="table-title">
+              Стоимость абонемента
+            </caption>
+            <tr class="table-row">
+              <td class="table-product">
+                <b class="table-product__name">
+                  Разовая тренировка
+                </b>
+                <span class="table-product__description">Разовое посещение зала</span>
+                <span class="table-product__description">Действует в течении всего дня</span>
+                </td>
+              <td class="table-price">
+              <span class="table-price__value">150р.</span>
+              </td>
+            </tr>
+            <tr class="table-row">
+              <td class="table-product">
+                <b class="table-product__name">
+                  Утренний абонемент
+                </b>
+                <span class="table-product__description">Время посещения:
+                  с 8:00 до 13:00
+                </span>
+                <span class="table-product__description">Абонемент действует в течении месяца</span>
+              </td>
+              <td class="table-price">
+                <span class="table-price__value">700р.</span>
+            </td>
+            </tr>
+            <tr class="table-row">
+              <td class="table-product">
+                <b class="table-product__name">
+                  Дневной абонемент
+                </b>
+                <span class="table-product__description">Время посещения:
+                  с 8:00 до 16:00
+                </span>
+                <span class="table-product__description">Абонемент действует в течении месяца</span>
+              </td>
+              <td class="table-price">
+                <span class="table-price__value">800р.</span>
+              </td>
+            </tr>
+            <tr class="table-row">
+              <td class="table-product">
+                <b class="table-product__name">
+                  Универсальный абонемент
+                </b>
+                <span class="table-product__description">Время посещения:
+                  Без ограничений
+                </span>
+                <span class="table-product__description">Абонемент действует в течении месяца</span>
+              </td>
+              <td class="table-price">
+                <span class="table-price__value">1200р.</span>
+              </td>
+            </tr>
+            <tr class="table-row">
+              <td class="table-product">
+                <b class="table-product__name">
+                  Льготный дневной абонемент
+                </b>
+                <span class="table-product__description">
+                  Абонемент школьника\студента\пенсионера
+                </span>
+                <span class="table-product__description">Время посещения:
+                  с 8:00 до 16:00
+                </span>
+                <span class="table-product__description">Абонемент действует в течении месяца</span>
+              </td>
+              <td class="table-price">
+                <span class="table-price__value">600р.</span>
+              </td>
+            </tr>
+            <tr class="table-row">
+              <td class="table-product">
+                <b class="table-product__name">
+                  Льготный универсальный абонемент
+                </b>
+                <span class="table-product__description">
+                  Абонемент школьника\студента\пенсионера
+                </span>
+                <span class="table-product__description">Время посещения:
+                  без ограничений
+                </span>
+                <span class="table-product__description">Абонемент действует в течении месяца</span>
+              </td>
+              <td class="table-price">
+                <span class="table-price__value">800р.</span>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <section class="personal" id="personal">
+        <div class="wrapper">
+          <div class="personal-header" data-aos="fade-up">
+            <h2 class="personal-title">Персональный тренинг</h2>
+          </div>
+          <table class="table">
+            <caption class="table-title">
+              Тренировки с личным тренером
+            </caption>
+            <tr class="table-row">
+              <td class="table-product">
+                <b class="table-product__name">Блок из 10 занятий с личным тренером</b>
+                <span class="table-product__description">Стоимость абонемента в тренажерный зал оплачивается отдельно</span>
+              </td>
+              <td class="table-price"><span class="table-price__value">4500р</span>
+              </td>
+            </tr>
+            <tr class="table-row">
+              <td class="table-product">
+                <b class="table-product__name">Блок из 13 занятий с личным тренером</b>
+                <span class="table-product__description">Стоимость абонемента в тренажерный зал оплачивается отдельно</span>
+              </td>
+              <td class="table-price">
+                <span class="table-price__value">5500р</span>
+              </td>
+            </tr>
+            <tr class="table-row">
+              <td class="table-product">
+                <b class="table-product__name">Разовая тренировка с личным тренером</b>
+                <span class="table-product__description">Стоимость абонемента в тренажерный зал оплачивается отдельно</span>
+              </td>
+              <td class="table-price">
+                <span class="table-price__value">550р</span>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <section class="services" id="services">
+          <div class="glide services-slider">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="services-slides glide__slides">
+                <li class="services-slide services-slide_online glide__slide">
+                  <div class="wrapper" data-aos="fade-left">
+                    <h2 class="service-slide__title">ОНЛАЙН ТРЕНИНГ</h2>
+                    <p class="service-slide__description">
+                      Онлайн Тренинг – это пошаговая работа один на один, в которой вы получаете лучшее решение ваших
+                      целей. Конкретных, измеримых, видимых, ощутимых. Самый быстрый путь достичь поставленной цели, это заниматься под присмотром опытного наставника.
+                    </p>
+                    <h3 class="service-slide__second-title">фитнес тренер онлайн</h3>
+                    <ul class="service-slide-features">
+                      <li class="service-slide-features__item">составление персональных тренировочных планов и их корректировка по ходу
+                        всего тренировочного процесса</li>
+                      <li class="service-slide-features__item">Персональная программа питания</li>
+                      <li class="service-slide-features__item">Дополнительные материалы позволяющие достичь поставленной цели как можно
+                        скорее</li>
+                      <li class="service-slide-features__item">Анализ вашего питания и тренировок от персонального тренера</li>
+                      <li class="service-slide-features__item">Ответы на любые вопросы касающиеся тренировок и питания</li>
+                    </ul>
+                    <a href="#" class="button service-slide__button">узнать подробнее</a>
+                  </div>
+                </li>
+                <li class="services-slide services-slide_personal glide__slide">
+                  <div class="wrapper">
+                  <h2 class="service-slide__title">ПЕРСОНАЛЬНЫЕ ТРЕНИРОВКИ</h2>
+                  <p class="service-slide__description">
+                    Персональный тренер – тот человек, который поможет в самые краткие сроки достичь фигуры вашей мечты.
+                    Потому что только профессионал знает, какие нагрузки являются правильными и эффективными именно для вашего тела.
+                  </p>
+                  <h3 class="service-slide__second-title">Преимущества персональных тренировок</h3>
+                  <ul class="service-slide-features">
+                    <li class="service-slide-features__item">Персональный тренер, которого вы сами выберете</li>
+                    <li class="service-slide-features__item">Индивидуальная программа тренировок, учитывающую особенности вашей подготовки</li>
+                    <li class="service-slide-features__item">Контроль техники выполнения упражнений, чтобы снизить вес или набрать мышечную массу</li>
+                    <li class="service-slide-features__item">Контроль достижения результата</li>
+                    <li class="service-slide-features__item">Своевременную корректировку программы тренировок для дальнейшего улучшения результата</li>
+                  </ul>
+                  <a href="#personal" class="button service-slide__button_personal">цены на персональный тренинг</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="glide__arrows slider-controlls" data-glide-el="controls">
+              <button class="glide__arrow glide__arrow--left slider-controlls__arrow slider-controlls__arrow-left" data-glide-dir="<"></button>
+              <button class="glide__arrow glide__arrow--right slider-controlls__arrow slider-controlls__arrow-right" data-glide-dir=">"></button>
+            </div>
+          </div>
+      </section>
+      <section class="contacts" id="contacts">
+        <div class="map" id="map"></div>
+        <div class="address" data-aos="fade-right">
+          <h2 class="address__title">Тренажерный зал "Атлетик"</h2>
+          <span class="address__text">
+            Барнаул, 50 лет СССР, 3
+          </span>
+          <div class="phone">
+            Телефон:
+            <a class="phone__link" href="Tel:+73852601969">
+              +7 (3852) <b>60‒19‒69</b>
+            </a>
+          </div>
+          <div class="schedule">
+            <span class="schedule__text">Режим работы:</span>
+            <span class="schedule__text">пн 8:00–23:00</span>
+            <span class="schedule__text">вт 8:00–22:00</span>
+            <span class="schedule__text">ср 8:00–23:00</span>
+            <span class="schedule__text">чт 8:00–22:00</span>
+            <span class="schedule__text">пт 8:00–23:00</span>
+            <span class="schedule__text">сб 9:00–20:00</span>
+            <span class="schedule__text">вс 10:00–17:00</span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <div class="wrapper footer-wrapper">
+        <p class="footer-copyright">
+          Тренажерный зал <b> "Атлетик" </b>
+        </p>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.instagram.com/athletic_brn22/" class="social-link" target="_blank">
+              <img src="img/instagram.svg" alt="инстаграм" class="social-link__image">
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://vk.com/club_athletic_22" class="social-link" target="_blank">
+              <img src="img/vk.svg" alt="вконтакте" class="social-link__image">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <div class="progressbar"></div>
+    <div class="overlay"></div>
+    <section class="modal">
+      <h2 class="modal-title">Оставьте заявку и мы Вам перезвоним</h2>
+      <form class="feedback-form modal-form" action="#" data-aos="fade-up">
+        <input
+          class="feedback-form__input modal-form__name feedback-form__input_name"
+          type="text"
+          placeholder="Имя"
+        />
+        <input
+          class="feedback-form__input modal-form__phone feedback-form__input_phone"
+          type="text"
+          placeholder="+7(___) ___ __ __"
+        />
+        <button type="submit" class="button feedback-form__button">
+          Заказать звонок
+        </button>
+      </form>
+      <button class="close"></button>
+    </section>
+    <script>
+      let map;
+      let address = {
+        lat: 53.349584,
+        lng: 83.691442
+      };
+      function initMap() {
+        map = new google.maps.Map(document.getElementById("map"), {
+          center: {
+            lat: 53.349584,
+            lng: 83.691442
+          },
+          zoom: 17,
+          disableDefaultUI: true,
+          styles: [
+            {
+              elementType: "geometry",
+              stylers: [
+                {
+                  color: "#f5f5f5"
+                }
+              ]
+            },
+            {
+              elementType: "labels.icon",
+              stylers: [
+                {
+                  visibility: "off"
+                }
+              ]
+            },
+            {
+              elementType: "labels.text.fill",
+              stylers: [
+                {
+                  color: "#616161"
+                }
+              ]
+            },
+            {
+              elementType: "labels.text.stroke",
+              stylers: [
+                {
+                  color: "#f5f5f5"
+                }
+              ]
+            },
+            {
+              featureType: "administrative.land_parcel",
+              elementType: "labels.text.fill",
+              stylers: [
+                {
+                  color: "#bdbdbd"
+                }
+              ]
+            },
+            {
+              featureType: "poi",
+              elementType: "geometry",
+              stylers: [
+                {
+                  color: "#eeeeee"
+                }
+              ]
+            },
+            {
+              featureType: "poi",
+              elementType: "labels.text.fill",
+              stylers: [
+                {
+                  color: "#757575"
+                }
+              ]
+            },
+            {
+              featureType: "poi.park",
+              elementType: "geometry",
+              stylers: [
+                {
+                  color: "#e5e5e5"
+                }
+              ]
+            },
+            {
+              featureType: "poi.park",
+              elementType: "labels.text.fill",
+              stylers: [
+                {
+                  color: "#9e9e9e"
+                }
+              ]
+            },
+            {
+              featureType: "poi.school",
+              stylers: [
+                {
+                  visibility: "on"
+                },
+                {
+                  weight: 4.5
+                }
+              ]
+            },
+            {
+              featureType: "poi.sports_complex",
+              stylers: [
+                {
+                  visibility: "on"
+                },
+                {
+                  weight: 2.5
+                }
+              ]
+            },
+            {
+              featureType: "road",
+              elementType: "geometry",
+              stylers: [
+                {
+                  color: "#ffffff"
+                }
+              ]
+            },
+            {
+              featureType: "road.arterial",
+              elementType: "labels.text.fill",
+              stylers: [
+                {
+                  color: "#757575"
+                }
+              ]
+            },
+            {
+              featureType: "road.highway",
+              elementType: "geometry",
+              stylers: [
+                {
+                  color: "#dadada"
+                }
+              ]
+            },
+            {
+              featureType: "road.highway",
+              elementType: "labels.text.fill",
+              stylers: [
+                {
+                  color: "#616161"
+                }
+              ]
+            },
+            {
+              featureType: "road.local",
+              elementType: "labels.text.fill",
+              stylers: [
+                {
+                  color: "#9e9e9e"
+                }
+              ]
+            },
+            {
+              featureType: "transit",
+              stylers: [
+                {
+                  visibility: "on"
+                }
+              ]
+            },
+            {
+              featureType: "transit.line",
+              stylers: [
+                {
+                  visibility: "on"
+                },
+                {
+                  weight: 8
+                }
+              ]
+            },
+            {
+              featureType: "transit.line",
+              elementType: "geometry",
+              stylers: [
+                {
+                  color: "#e5e5e5"
+                }
+              ]
+            },
+            {
+              featureType: "transit.station",
+              elementType: "geometry",
+              stylers: [
+                {
+                  color: "#eeeeee"
+                }
+              ]
+            },
+            {
+              featureType: "transit.station.bus",
+              stylers: [
+                {
+                  weight: 7
+                }
+              ]
+            },
+            {
+              featureType: "water",
+              elementType: "geometry",
+              stylers: [
+                {
+                  color: "#c9c9c9"
+                }
+              ]
+            },
+            {
+              featureType: "water",
+              elementType: "labels.text.fill",
+              stylers: [
+                {
+                  color: "#9e9e9e"
+                }
+              ]
+            }
+          ]
+        });
+        let marker = new google.maps.Marker({
+          position: address,
+          map: map
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOkfxtF9PfrkD3sD-E4ANP_bOze8Vk4W0&amp;callback=initMap"></script>
+  <script type="text/javascript" src="bundle.js"></script></body>
+</html>
